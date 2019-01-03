@@ -6,9 +6,9 @@ class BgmSpider(scrapy.Spider):
     name = 'bgm-xpath'
     allowed_domains = ['bgm.tv']
     start_urls = [
-        # 'http://bgm.tv/anime/browser?sort=rank&page=1',
+         'http://bgm.tv/anime/browser?sort=rank&page=1',
         # 'http://bgm.tv/anime/browser/?sort=date&page=1'
-        'http://bgm.tv/anime/browser/?sort=title',
+        # 'http://bgm.tv/anime/browser/?sort=title',
     ]
 
     def parse(self, response):
