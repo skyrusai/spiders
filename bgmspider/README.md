@@ -7,11 +7,11 @@
     $ scrapy list
     bgm-xpath
 
-## Running the spiders
+## 运行爬虫 bgm-xpath
 
     $ scrapy crawl bgm-xpath
 
-## 保存数据 `-o` :
+## 保存数据 -o :
     
     $ scrapy crawl bgm-xpath -o bgm.json
 	$ scrapy crawl bgm-xpath -o bgm.csv
